@@ -1,10 +1,14 @@
 #PROJECT OVERVIEW
 Project Title: Retail Sales Analysis
-Objectives
+
+
+#Objectives
+
 Set up a retail sales database: Create and populate a retail sales database with the provided sales data.
 Data Cleaning: Identify and remove any records with missing or null values.
 Exploratory Data Analysis (EDA): Perform basic exploratory data analysis to understand the dataset.
 Business Analysis: Use SQL to answer specific business questions and derive insights from the sales data.
+
 Project Structure
 1. Database Setup
 Database Creation: The project starts by creating a database named p1_retail_db.
@@ -25,7 +29,13 @@ CREATE TABLE retail_sales
     cogs FLOAT,
     total_sale FLOAT
 );
+
+
+
+
 2. Data Exploration & Cleaning
+
+
 Record Count: Determine the total number of records in the dataset.
 Customer Count: Find out how many unique customers are in the dataset.
 Category Count: Identify all unique product categories in the dataset.
